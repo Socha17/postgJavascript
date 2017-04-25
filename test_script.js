@@ -23,9 +23,9 @@ client.connect((err) => {
       return console.error("error running query", err);
     }
     console.log("Searching...");
-    console.log(`Found result by the name of ${someName}`);
+    console.log(`Found result by the name of ${someName}:`);
 
-  console.log(`- ${result.rows[0].id}  ${result.rows[0].first_name} born  ${result.rows[0].birthdate.getFullYear()}-${result.rows[0].birthdate.getDay()}-${result.rows[0].birthdate.getMonth()}`);
+    console.log(`- ${result.rows[0].id}  ${result.rows[0].first_name} born ${result.rows[0].birthdate.getFullYear()}-${result.rows[0].birthdate.getDay()}-${result.rows[0].birthdate.getMonth()}`);
 
     // console.log(result.row); //output: 1
     client.end();
