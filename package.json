@@ -1,0 +1,22 @@
+{
+  "name": "pgjavascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Socha17/postgJavascript.git"
+  },
+  "author": "Matt Socha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Socha17/postgJavascript/issues"
+  },
+  "homepage": "https://github.com/Socha17/postgJavascript#readme",
+  "description": "",
+  "dependencies": {
+    "pg": "^6.1.5"
+  }
+}
